@@ -1,30 +1,47 @@
 import React from "react";
+import { getNBAArticles } from "./api";
+import { Container, Header } from "semantic-ui-react";
+import ArticleList from "./ArticleList";
+class Highlights extends React.Component {
+  state = {
+    articles: [],
+    apiError: "",
+  };
 
-function Highlights() {
-  return (
-    <div className="highlights">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Highlights</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+  render() {
+    const { articles, apiError } = this.state;
+    return (
+      <Container>
+        <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+          News and Highlights
+        </Header>
+        {articles.length > 0 && <ArticleList articles={articles} />}
+        {apiError && <p>Could not fetch any articles. Please try again.</p>}
+            <center>
+     <img src="http://www.simpleimageresizer.com/_uploads/photos/3910f2e8/NBA-new-logo_630x315.png" alt="alternatetext"></img>
+     </center>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+     < br/>
+      </Container>
+      
+    );
+  }
+
+  async componentDidMount() {
+    try {
+      const response = await getNBAArticles();
+      this.setState({ articles: response.articles });
+    } catch (error) {
+      this.setState({ apiError: "Could not find any articles" });
+    }
+  }
 }
 
 export default Highlights;
