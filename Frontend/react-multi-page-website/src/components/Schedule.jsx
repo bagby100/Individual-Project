@@ -71,40 +71,37 @@ function Schedule() {
         </thead>
         <tbody>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg" style={tdStyle3} rowspan="2" >1</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>105</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2" >1</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>105</td>
           </tr>
           <tr>
             <td style={tdStyle2}>Suns</td> <td style={tdStyle2}>118</td>
           </tr>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg" style={tdStyle3} rowspan="2">2</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>108</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">2</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>108</td>
           </tr>
           <tr>
             <td style={tdStyle2}>Suns</td> <td style={tdStyle2}>118</td>
           </tr>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg" style={tdStyle3} rowspan="2">3</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>120</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">3</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>120</td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>100</td>
           </tr>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg
-" style={tdStyle3} rowspan="2">4</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>109</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">4</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>109</td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>103</td>
           </tr>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg
-" style={tdStyle3} rowspan="2">5</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>123</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">5</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>123</td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>119</td>
           </tr>
           <tr>
-            <td background="https://i.postimg.cc/0jWLmL0k/bucks-vs-suns-760x422-5-550x70.jpg
-" style={tdStyle3} rowspan="2">6</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>105</td>
+            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">6</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>105</td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>98</td>
@@ -112,7 +109,8 @@ function Schedule() {
         </tbody>
       </table>
       <center>
-        <img src="https://i.postimg.cc/Rq52XMfR/1200px-The-NBA-Finals-logo-svg.png" alt="alternatetext"></img>
+        < br/>
+        <img src="https://i.ibb.co/MDbmy7J/1200px-The-NBA-Finals-logo-svg-2-65.png" alt="alternatetext"></img>
       </center>
     </div>
 
