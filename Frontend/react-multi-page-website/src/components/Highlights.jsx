@@ -18,7 +18,7 @@ class Highlights extends React.Component {
         {articles.length > 0 && <ArticleList articles={articles} />}
         {apiError && <p>Could not fetch any articles. Please try again.</p>}
             <center>
-     <img src="http://www.simpleimageresizer.com/_uploads/photos/3910f2e8/NBA-new-logo_630x315.png" alt="alternatetext"></img>
+     <img src="https://cdn.nba.com/manage/2020/10/NBA20Secondary20Logo-784x462.jpg" alt="alternatetext"></img>
      </center>
      < br/>
      < br/>

@@ -93,7 +93,7 @@ function Statistics() {
       pagination={paginationFactory()}
     />
     <center>
-      <img src="http://www.simpleimageresizer.com/_uploads/photos/3910f2e8/rawImage_1_35.jpg" alt="alternatetext"></img>
+      <img src="https://i.postimg.cc/xjJCxtMJ/rawImage.jpg" alt="alternatetext"></img>
     </center>
     < br />
     < br />
