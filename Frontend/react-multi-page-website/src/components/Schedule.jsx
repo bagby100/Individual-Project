@@ -57,7 +57,7 @@ function Schedule() {
     fontWeight: "bold",
     border: "2px solid #DDD",
     fontSize: "50px",
-    color: "white"
+    color: "black"
   }
   return (
     <div className="schedule">
@@ -67,44 +67,45 @@ function Schedule() {
             <th>Game</th>
             <th>Team</th>
             <th>Score</th>
+            <th>Broadcast</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2" >1</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>105</td>
+            <td background="https://i.ibb.co/3m5jBth/Phoenix-Suns-Wordmark-Logo-2012-current-1-425x75.png" style={tdStyle3} rowspan="2" >1</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>105</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
             <td style={tdStyle2}>Suns</td> <td style={tdStyle2}>118</td>
           </tr>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">2</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>108</td>
+            <td background="https://i.ibb.co/3m5jBth/Phoenix-Suns-Wordmark-Logo-2012-current-1-425x75.png" style={tdStyle3} rowspan="2">2</td>  <td style={tdStyle}>Bucks</td> <td style={tdStyle}>108</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
             <td style={tdStyle2}>Suns</td> <td style={tdStyle2}>118</td>
           </tr>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">3</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>120</td>
+            <td background="https://i.ibb.co/PmQJvVV/2440-milwaukee-bucks-wordmark-2016-700x80-2-425x75.png" style={tdStyle3} rowspan="2">3</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>120</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>100</td>
           </tr>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">4</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>109</td>
+            <td background="https://i.ibb.co/PmQJvVV/2440-milwaukee-bucks-wordmark-2016-700x80-2-425x75.png" style={tdStyle3} rowspan="2">4</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>109</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>103</td>
           </tr>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">5</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>123</td>
+            <td background="https://i.ibb.co/PmQJvVV/2440-milwaukee-bucks-wordmark-2016-700x80-2-425x75.png" style={tdStyle3} rowspan="2">5</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>123</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
             <td style={tdStyle}>Suns</td> <td style={tdStyle}>119</td>
           </tr>
           <tr>
-            <td background="https://i.ibb.co/vXNKqz0/bucks-vs-suns-760x422-5-550x70-2-700x70.jpg" style={tdStyle3} rowspan="2">6</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>105</td>
+            <td background="https://i.ibb.co/PmQJvVV/2440-milwaukee-bucks-wordmark-2016-700x80-2-425x75.png" style={tdStyle3} rowspan="2">6</td>  <td style={tdStyle2}>Bucks</td> <td style={tdStyle2}>105</td> <td style={tdStyle2}> <a href="https://abc.com/news/insider/watch-the-nba-finals-2021-milwaukee-bucks-phoenix-suns-livestream-abc-app">ABC</a></td>
           </tr>
           <tr>
-            <td style={tdStyle}>Suns</td> <td style={tdStyle}>98</td>
+            <td style={tdStyle}>Suns</td> <td style={tdStyle}>98</td> <td style={tdStyle2}></td>
           </tr>
         </tbody>
       </table>
@@ -119,3 +120,5 @@ function Schedule() {
 
 
 export default Schedule;
+
+

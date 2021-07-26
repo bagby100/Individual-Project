@@ -25,7 +25,7 @@ class Search extends Component {
             this.setState({ playerName: replace })
             this.setState({ season: replace })
         } else {
-            alert("Please type players name!")
+            alert("Please Enter Player Name!")
         }
     }
 
@@ -59,6 +59,7 @@ class Search extends Component {
                 else
                 this.setState({ playerImage: res.config.url })
             }).catch(err => {
+                alert("Image Not Found")
                 console.log(err)
             })
     }
@@ -66,8 +67,8 @@ class Search extends Component {
     getPlayerStats = (playerId) => {
         axios.get(`https://www.balldontlie.io/api/v1/season_averages?season=2020&player_ids[]=${playerId}`)
             .then(async res => {
-                if (res.data.data === undefined) 
-                alert("Image Not Found")
+                if (res.data.data === undefined || res.data.data[0] === undefined ) 
+                    alert("No Current Stats")
                 else
                 this.setState({ playerStats: res.data.data[0] })
             }).catch(err => {
@@ -128,11 +129,11 @@ class Search extends Component {
                             <td style={tdStyle}>{this.state.playerAttributes["first_name"]} {this.state.playerAttributes["last_name"]}</td>
                         </tr>
                         <tr>
-                            <th style={thStyle}> Weight lbs</th>
+                            <th style={thStyle}>Weight lbs</th>
                             <td style={tdStyle}>{this.state.playerAttributes["weight_pounds"]}</td>
                         </tr>
                         <tr>
-                            <th style={thStyle}> Height </th>
+                            <th style={thStyle}>Height </th>
                             <td style={tdStyle}>{this.state.playerAttributes["height_feet"]}ft, {this.state.playerAttributes["height_inches"]}inches</td>
                         </tr>
                         <tr>
